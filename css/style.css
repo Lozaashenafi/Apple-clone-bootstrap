@@ -1,0 +1,592 @@
+/* General Styling*/
+.footerContainer {
+  max-width: 80%;
+}
+.container {
+  max-width: 80%;
+  min-width: fit-content;
+  /* width: 75%; */
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+a {
+  color: rgb(0, 102, 204);
+}
+/* a:hover {
+  text-decoration: underline;
+} */
+img {
+  max-width: 100%;
+}
+.white {
+  color: #fff;
+}
+.black {
+  color: #1d1d1f;
+}
+.grey {
+  color: #86868b;
+}
+.top-50 {
+  margin-top: 50px;
+}
+.top-100 {
+  margin-top: 100px;
+}
+/* Header Style */
+.nav-wrapper {
+  background: rgba(0, 0, 0, 0.7);
+  font-size: 0.5em;
+  font-weight: 100;
+}
+.nav-wrapper ul li a {
+  color: white;
+  opacity: 0.8;
+  font-size: 12px;
+}
+.nav-wrapper ul li a:hover {
+  opacity: 1;
+  color: #fff;
+}
+.navbar-toggler {
+  color: #fff;
+}
+.nav-item {
+  text-align: left !important;
+  padding: 4px 0;
+  border-bottom: 0 solid #4b4b4b;
+}
+.navContainer {
+  min-width: 100px;
+}
+
+/* Section five right New  */
+.fallDescription {
+  margin-top: 360px;
+  font-size: 17px;
+  opacity: 0.8;
+}
+
+/* Footer Styling */
+
+.footer-wrapper {
+  background-color: #f6f7f5;
+  color: #84848a;
+  font-size: 0.7em;
+}
+.footer-wrapper ul {
+  list-style: none;
+  padding-bottom: 10px;
+  padding-inline-start: 0px;
+}
+.footer-wrapper ul a {
+  color: #515154;
+  text-decoration: none;
+}
+.my-apple-wrapper {
+  padding-bottom: 15px;
+  margin-top: 10px;
+}
+.copyright {
+  margin-top: 15px;
+}
+.footer-country {
+  margin-top: 8px;
+}
+
+.footer-country-name {
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer-links-terms {
+  padding-top: 12px;
+}
+.footer-links-terms ul {
+  display: flex;
+}
+.footer-links-terms ul li {
+  padding: 0 10px;
+  border-right: 2px solid #d2d2d7;
+}
+.footerBorder {
+  border-bottom: 1px solid #d2d2d7;
+}
+.footer-links-terms ul li:first-child {
+  padding-left: 0;
+}
+.footer-links-terms ul li:last-child {
+  border-right: 0;
+}
+
+.footer-links-wrapper h3 {
+  font-size: 12px;
+  font-weight: 600;
+  color: #1d1d1f;
+}
+
+.footer-wrapper ul li {
+  padding: 4px 0;
+}
+.footerTexts {
+  font-size: 0.8rem;
+}
+.upper-text-container {
+  border-bottom: 1px solid #d2d2d7;
+  padding: 17px 0 10px;
+  margin-bottom: 20px;
+  font-size: 0.8rem;
+}
+.upper-text-container a {
+  text-decoration: none;
+  color: #515154;
+}
+
+.footer-links-wrapper ul li a:hover,
+.copyright-wrapper ul li a:hover,
+.upper-text-container a:hover {
+  text-decoration: underline;
+}
+.my-apple-wrapper a {
+  text-decoration: none;
+}
+.my-apple-wrapper a:hover {
+  text-decoration: underline;
+}
+
+/*-------------------- My style--------------------------- */
+/* customizing the bootstrap size medium to 735 instead of 768 as I see it on apple the then apple website*/
+
+.productWrapper {
+  font-size: 2em;
+  font-weight: 500;
+}
+.descriptionWrapper {
+  font-weight: 500;
+}
+
+.linksWrapper li a:after {
+  font-family: "fontAwesome";
+  content: "\f105";
+  padding-left: 5px;
+}
+.linksWrapper li a:hover {
+  color: black;
+}
+.secTwoWrapper .linksWrapper li a:hover,
+.secFourWrapper .linksWrapper li a:hover {
+  color: white;
+}
+
+.internalWrapper {
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logoWrapper {
+  height: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Section One New  */
+.secOneWrapper {
+  background-image: url(../images/iPhone14/hero_iphone14__fjmsqstr1ceq_large.jpg);
+}
+
+/* section two New  */
+.secTwoWrapper {
+  background-image: url(..//images/iPhone14Pro/hero_iphone14pro__e5xbgo5ffhg2_small.jpg);
+}
+/* section Three New  */
+.secThreeWrapper {
+  background-image: url(../images/appleWatchUltra/hero_apple_watch_ultra__dtz0f3e8oscy_small.jpg);
+}
+.ultraWatchLogo {
+  background-image: url(../images/appleWatchUltraLogo/hero_logo_apple_watch_ultra__etygmmkwgfma_small.png);
+}
+
+/* Section Four New */
+.watchSeries8Logo {
+  background-image: url(../images/appleWatchSer8/promo_logo_apple_watch_series_8__ee6riplsucuq_small.png);
+  /* background-repeat: no-repeat; */
+}
+.secFourLeft {
+  background-image: url(../images/appleWatchSer8Promo/promo_apple_watch_series_8__ch7rexplmihe_small.jpg);
+  /* background-repeat: no-repeat; */
+}
+.secFourRight {
+  background-image: url(../images/airpodsPro/promo_airpods_pro_avail__gaxggskofx6y_small.jpg);
+  /* background-repeat: no-repeat; */
+}
+
+/* Section Five New  */
+.secFiveLeft {
+  background-image: url(../images/appleWatchSE/promo_apple_watch_se__f9702l6odgi2_small.jpg);
+}
+.watchSELogo {
+  background-image: url(../images/appleWatchSELogo/promo_logo_apple_watch_se__b85vr9ri02gi_small.png);
+}
+.secFiveRight {
+  background-image: url(../images/appleFtnessPlus/promo-apple-fitness-plus-iphone__bzeal882mv7m_small.jpg);
+}
+.fitnessLogo {
+  background-image: url(../images/fitnessLogo/promo_logo_fitness_plus_iphone__dpayetemakq6_small.png);
+}
+.leftWrapper,
+.rightWrapper {
+  height: 550px;
+  background-position: center;
+}
+
+/* Section Six New */
+.secSixLeft {
+  background-image: url(../images/macBookAirPromo/promo_macbookair__fywl7i82fueu_small.png);
+}
+.macBookAirLogo {
+  background-image: url(../images/McBookAir/logo_promo_macbookair__hy9ktdqqtv2a_small.png);
+}
+.secSixRight {
+  background-image: url(../images/appleCard/tile__cauwwcyyn9hy_small.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.appleCardLogo {
+  background-image: url(../images/appleCardLogo/logo__dcojfwkzna2q_small.png);
+}
+
+/* Carousel Style */
+
+.textBlack {
+  color: rgb(9, 9, 9);
+  font-weight: bold;
+}
+
+.carouselImageWrapper {
+  height: 31rem;
+  background-color: rgb(209, 201, 201);
+}
+
+.carouselImage {
+  height: 31rem;
+  background-repeat: no-repeat;
+  /* width: 80%; */
+  /* padding: 0 90px; */
+  background-position: center;
+}
+.carousel-caption h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.carousel-caption p {
+  font-size: 1rem;
+}
+.carouselImage1 {
+  background-image: url(../images/Carousel/274x5931.jpg);
+}
+.carouselImage2 {
+  background-image: url(../images/Carousel/274x5932.jpg);
+}
+.carouselImage3 {
+  background-image: url(../images/Carousel/274x5933.jpg);
+}
+.carouselImage4 {
+  background-image: url(../images/Carousel/274x5934.jpg);
+}
+.carouselImage5 {
+  background-image: url(../images/Carousel/274x5935.jpg);
+}
+/*-------------- 1st Media Query-------------------------- */
+/* ---------------------------------------------------------- */
+@media (min-width: 735px) and (max-width: 1068px) {
+  /* secOneWrapper new  */
+
+  .my-apple-wrapper {
+    border-bottom: 0.2px solid #b3afaf;
+  }
+
+  .secOneWrapper {
+    background-image: url(../images/iPhone14/hero_iphone14__fjmsqstr1ceq_medium.jpg);
+  }
+
+  /* secTwoWrapper new  */
+
+  .secTwoWrapper {
+    background-image: url(../images/iPhone14Pro/hero_iphone14pro__e5xbgo5ffhg2_medium.jpg);
+    background-position: center;
+  }
+  .ultraWatchLogo {
+    background-image: url(../images/appleWatchUltraLogo/hero_logo_apple_watch_ultra__etygmmkwgfma_medium.png);
+    /* background-size: contain; */
+    height: 120px;
+  }
+
+  /* secTwoWrapper new  */
+
+  .secThreeWrapper {
+    background-image: url(../images/appleWatchUltra/hero_apple_watch_ultra__dtz0f3e8oscy_medium.jpg);
+  }
+
+  /* secFourWrapper new  */
+  .secFourLeft {
+    background-image: url(../images/appleWatchSer8Promo/promo_apple_watch_series_8__ch7rexplmihe_medium.jpg);
+    background-size: cover;
+  }
+  .secFourRight {
+    background-image: url(../images/airpodsPro/promo_airpods_pro_avail__gaxggskofx6y_medium.jpg);
+    background-size: cover;
+    /* background-position: top; */
+  }
+  .watchSeries8Logo {
+    background-image: url(../images/appleWatchSer8/promo_logo_apple_watch_series_8__ee6riplsucuq_medium.png);
+  }
+
+  /* secFiveWrapper new  */
+  .secFiveLeft {
+    background-image: url(../images/appleWatchSE/promo_apple_watch_se__f9702l6odgi2_medium.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .secFiveRight {
+    background-image: url(../images/appleFtnessPlus/promo-apple-fitness-plus-iphone__bzeal882mv7m_medium.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 600px;
+  }
+  .watchSELogo {
+    background-image: url(../images/appleWatchSELogo/promo_logo_apple_watch_se__b85vr9ri02gi_medium.png);
+  }
+  .fitnessLogo {
+    background-image: url(../images/fitnessLogo/promo_logo_fitness_plus_iphone__dpayetemakq6_medium.png);
+  }
+
+  /* secSix new  */
+
+  .secSixLeft {
+    background-image: url(../images/macBookAirPromo/promo_macbookair__fywl7i82fueu_medium.png);
+  }
+  .secSixRight {
+    background-image: url(../images/appleCard/apple\ card\ tile__cauwwcyyn9hy_medium.jpg);
+  }
+
+  .appleCardLogo {
+    background-image: url(../images/appleCardLogo/logo__dcojfwkzna2q_medium.png);
+  }
+  .macBookAirLogo {
+    background-image: url(../images/McBookAir/logo_promo_macbookair__hy9ktdqqtv2a_medium.png);
+  }
+  /* .carouselImage1 {
+    background-image: url(../images/McBookAir/logo_promo_macbookair__hy9ktdqqtv2a_medium.png);
+  } */
+  /* Carousel Style */
+  .carouselImageWrapper {
+    height: 23rem;
+    background-color: rgb(209, 201, 201);
+  }
+
+  .carouselImage {
+    height: 23rem;
+    background-repeat: no-repeat;
+    /* width: 80%; */
+    /* padding: 0 90px; */
+    background-position: center;
+  }
+  .carousel-caption h3 {
+    font-size: 1.5rem;
+  }
+  .carousel-caption p {
+    font-size: 1rem;
+  }
+  .carouselImage1 {
+    background-image: url(../images/Carousel/badSis689x3871.jpg);
+  }
+  .carouselImage2 {
+    background-image: url(../images/Carousel/blackBird689x3872.jpg);
+  }
+  .carouselImage3 {
+    background-image: url(../images/Carousel/fiveDays689x3873.jpg);
+  }
+  .carouselImage4 {
+    background-image: url(../images/Carousel/GreatBeer689x3874.jpg);
+  }
+  .carouselImage5 {
+    background-image: url(../images/Carousel/Luck689x3875.jpg);
+  }
+}
+/*-------------- 2nd Media Query-------------------------- */
+/* ---------------------------------------------------------- */
+@media (min-width: 1069px) {
+  /* Carousel Style */
+
+  .my-apple-wrapper {
+    border-bottom: 0.2px solid #b3afaf;
+  }
+
+  .productWrapper {
+    font-size: 2em;
+    font-weight: 700;
+  }
+  .descriptionWrapper {
+    font-weight: 600;
+    opacity: 0.8;
+  }
+
+  .carouselSize {
+    height: 100rem;
+    background-color: rgb(209, 201, 201);
+  }
+  .carouselImage {
+    width: 70%;
+    padding: 0 130px;
+  }
+  /* new */
+  .secOneWrapper {
+    background-image: url(../images/iPhone14/hero_iphone14__fjmsqstr1ceq_large.jpg);
+  }
+  /* New  */
+  .secTwoWrapper {
+    background-image: url(../images/iPhone14Pro/hero_iphone14pro__e5xbgo5ffhg2_large.jpg);
+  }
+  /* New  */
+
+  .secThreeWrapper {
+    background-image: url(../images/appleWatchUltra/hero_apple_watch_ultra__dtz0f3e8oscy_large.jpg);
+    background-position: top;
+    /* height: 700px; */
+  }
+  /* New  */
+
+  .ultraWatchLogo {
+    background-image: url(../images/appleWatchUltraLogo/hero_logo_apple_watch_ultra__etygmmkwgfma_large.png);
+    height: 120px;
+  }
+  /* New  */
+
+  .secFourLeft {
+    background-image: url(../images/appleWatchSer8Promo/promo_apple_watch_series_8__ch7rexplmihe_large.jpg);
+  }
+  /* New  */
+
+  .watchSeries8Logo {
+    background-image: url(../images/appleWatchSer8/promo_logo_apple_watch_series_8__ee6riplsucuq_large.png);
+  }
+  /* New  */
+
+  .secFourRight {
+    background-image: url(../images/airpodsPro/promo_airpods_pro_avail__gaxggskofx6y_large.jpg);
+
+    background-size: cover;
+  }
+  .secFiveLeft {
+    background-image: url(../images/appleWatchSE/promo_apple_watch_se__f9702l6odgi2_large.jpg);
+  }
+  .watchSELogo {
+    background-image: url(../images/appleWatchSELogo/promo_logo_apple_watch_se__b85vr9ri02gi_large.png);
+  }
+  .secFiveRight {
+    background-image: url(../images/appleFtnessPlus/promo-apple-fitness-plus-iphone__bzeal882mv7m_large.jpg);
+  }
+  .fitnessLogo {
+    background-image: url(../images/fitnessLogo/promo_logo_fitness_plus_iphone__dpayetemakq6_large.png);
+  }
+  .secSixLeft {
+    background-image: url(../images/macBookAirPromo/promo_macbookair__fywl7i82fueu_large.png);
+  }
+  .macBookAirLogo {
+    background-image: url(../images/McBookAir/logo_promo_macbookair__hy9ktdqqtv2a_large.png);
+  }
+  .secSixRight {
+    background-image: url(../images/appleCard/apple\ card\ tile__cauwwcyyn9hy_large.jpg);
+  }
+  .appleCardLogo {
+    background-image: url(../images/appleCardLogo/logo__dcojfwkzna2q_large.png);
+  }
+
+  .carouselImageWrapper {
+    height: 27rem;
+    background-color: rgb(209, 201, 201);
+  }
+
+  .carouselImage {
+    height: 27rem;
+    background-repeat: no-repeat;
+    /* width: 80%; */
+    /* padding: 0 90px; */
+    background-position: center;
+    background-size: contain;
+  }
+  .carousel-caption h3 {
+    font-size: 1.5rem;
+  }
+  .carousel-caption p {
+    font-size: 1rem;
+  }
+  .carouselImage1 {
+    background-image: url(../images/Carousel/badSis980x5511.jpg);
+  }
+  .carouselImage2 {
+    background-image: url(../images/Carousel/blackBird980x5512.jpg);
+  }
+  .carouselImage3 {
+    background-image: url(../images/Carousel/fiveDays980x5513.jpg);
+  }
+  .carouselImage4 {
+    background-image: url(../images/Carousel/greatBeer980x5514.jpg);
+  }
+  .carouselImage5 {
+    background-image: url(../images/Carousel/morningShow980x5515.jpg);
+  }
+}
+
+/*Media Query*/
+/* Footer */
+@media (max-width: 833px) {
+  .footer-links-wrapper ul {
+    display: none;
+  }
+
+  .footer-links-wrapper h3:after {
+    font-family: "FontAwesome";
+    content: "\f067";
+    padding-left: 10px;
+    position: absolute;
+    right: 25px;
+  }
+  /* This "expanded" class is added to get "x" sign when toggled instead of "+" sign in footer section. I bring it from our "Responsive Code jQuery" project*/
+  .footer-links-wrapper h3.expanded:after {
+    font-family: "FontAwesome";
+    content: "\f00d";
+    padding-left: 10px;
+    position: absolute;
+    right: 25px;
+  }
+
+  /* Its to redefine sm size as 833 max based on apple website  */
+  .col-sm-12 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+}
+/* media query for footerBorder to display none when size >833  */
+@media (min-width: 834px) {
+  .footer-links-wrapper ul li a {
+    /* display: none; */
+    font-size: 11px;
+    font-weight: 600;
+    opacity: 0.8;
+  }
+
+  hr {
+    display: none;
+  }
+}
+
+/* Media query for Logo Image in small size screen  */
+@media (max-width: 767px) {
+  .logo {
+    margin-right: 45%;
+  }
+}
